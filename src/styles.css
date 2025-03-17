@@ -11,12 +11,13 @@ body {
   padding: 30px;
 }
 .search-form-input {
-  background-color: #50717b;
+  background-color: #8ecccc;
   border: none;
   border-radius: 5px;
   width: 80%;
   font-size: 16px;
   padding: 18px 22px;
+  color: #212121;
 }
 
 .search-form-button {
