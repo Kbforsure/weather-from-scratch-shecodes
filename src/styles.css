@@ -1,8 +1,8 @@
 body {
-  background-color: #3a4042;
+  background-color: #50717b;
 }
 .weather-app {
-  background-color: #50717b;
+  background-color: #3a4042;
   max-width: 650px;
   margin: 30px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
