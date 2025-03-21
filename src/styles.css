@@ -19,9 +19,7 @@ header {
   border-bottom: #f4eeff;
   padding: 0 0 30px 0;
 }
-.search-form {
-  color: #430f58;
-}
+
 .search-form-input {
   background-color: #f4eeff;
   border: none;
@@ -52,6 +50,9 @@ main {
 }
 .weather-app-details {
   color: #430f58;
+}
+.weather-app-details strong {
+  color: #ff570c;
 }
 .weather-app-data {
   display: flex;
