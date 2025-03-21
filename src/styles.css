@@ -16,11 +16,11 @@ a {
 }
 
 header {
-  border-bottom: 1px solid #50717b;
+  border-bottom: #f4eeff;
   padding: 0 0 30px 0;
 }
 .search-form-input {
-  background-color: #50717b;
+  background-color: #f4eeff;
   border: none;
   border-radius: 5px;
   width: 80%;
@@ -51,7 +51,7 @@ main {
   justify-content: space-between;
 }
 footer {
-  border-top: 1px solid #50717b;
+  border-top: 1px solid #f4eeff;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 18px;
