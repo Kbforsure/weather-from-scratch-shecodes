@@ -45,6 +45,7 @@ main {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
+  color: #430f58;
 }
 .weather-app-data {
   display: flex;
