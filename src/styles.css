@@ -50,6 +50,7 @@ main {
 }
 .weather-app-details {
   color: #6643b5;
+  font-weight: 300;
 }
 .weather-app-details strong {
   color: #ff570c;
