@@ -67,3 +67,11 @@ footer {
   color: #6643b5;
   font-weight: 300;
 }
+.weather-app-value {
+  font-size: 88px;
+  font-weight: bold;
+}
+.weather-app-icon {
+  font-size: 45px;
+  margin-top: 22px;
+}
