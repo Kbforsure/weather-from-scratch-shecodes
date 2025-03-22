@@ -73,12 +73,11 @@ footer {
 }
 .weather-app-icon {
   font-size: 45px;
-  margin-bottom: 10px;
 }
 .weather-app-unit {
-  margin-bottom: 16px;
   font-size: 28px;
 }
 .weather-app-temperature-container {
   color: #430f58;
+  display: flex;
 }
