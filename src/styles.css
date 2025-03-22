@@ -79,3 +79,6 @@ footer {
   margin-bottom: 16px;
   font-size: 28px;
 }
+.weather-app-temperature-container {
+  color: #430f58;
+}
