@@ -5,5 +5,5 @@ function handleSearchSumbit(event) {
   cityElement.innerHTML = searchInput.value;
 }
 
-let SearchFormElement = document.querySelector("#search-form");
-SearchFormElement.addEventListener("submit", handleSearchSumbit);
+let searchFormElement = document.querySelector("#search-form");
+searchFormElement.addEventListener("submit", handleSearchSumbit);
