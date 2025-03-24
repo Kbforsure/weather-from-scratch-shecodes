@@ -83,3 +83,17 @@ footer {
   color: #430f58;
   display: flex;
 }
+.weather-forecast-date {
+  text-align: center;
+  color: #430f58;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-app-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+}
