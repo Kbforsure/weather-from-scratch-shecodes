@@ -76,7 +76,7 @@ function displayForecast() {
             </div>
             `;
   });
-  forecastElement.innherHTML = forecastHtml;
+  forecastElement.innerHTML = forecastHtml;
 }
 
 let searchFormElement = document.querySelector("#search-form");
