@@ -50,8 +50,29 @@ function handleSearchSubmit(event) {
 
   searchCity(searchInput.value);
 }
+function displayForecast() {
+  let forecast = document.querySelector("#forecast");
+
+  forecast.innerHTML = `<div class="weather-forecast-day">
+            <div class="weather-forecast-date">
+              Tue
+              <div>
+                <br />
+                <div class="weather-forecast-icon">🌤</div>
+                <br />
+                <div class="weather-forecast-temperatures">
+                  <div class="weather-app-temperature">
+                    <strong>12º </strong>
+                  </div>
+                  |
+                  <div class="weather-app-temperature">6º</div>
+                </div>
+              </div>
+            </div>`;
+}
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Bellingham");
+displayForecast();
