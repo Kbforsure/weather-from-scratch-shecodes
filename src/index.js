@@ -59,9 +59,7 @@ function displayForecast() {
     forecastHtml =
       forecastHtml +
       `<div class="weather-forecast-day">
-            <div class="weather-forecast-date">
-              Tue
-              <div>
+            <div class="weather-forecast-date">${day}</div>
                 <br />
                 <div class="weather-forecast-icon">🌤</div>
                 <br />
@@ -73,7 +71,6 @@ function displayForecast() {
                   <div class="weather-app-temperature">6º</div>
                 </div>
               </div>
-            </div>
             `;
   });
   forecastElement.innerHTML = forecastHtml;
