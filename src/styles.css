@@ -83,6 +83,9 @@ footer {
   color: #430f58;
   display: flex;
 }
+.weather-forecast {
+  margin-top: 30px;
+}
 .weather-forecast-date {
   text-align: center;
   color: #430f58;
