@@ -87,11 +87,6 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-.weather-forecast-day {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-around;
-}
 .weather-forecast-date {
   text-align: center;
   color: #430f58;
