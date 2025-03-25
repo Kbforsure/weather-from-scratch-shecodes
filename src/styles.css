@@ -91,18 +91,15 @@ footer {
   color: #430f58;
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 15px;
 }
 .weather-app-icon {
   font-size: 38px;
   text-align: center;
-  margin-top: 10px;
 }
 .weather-forecast-temperatures {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 }
 .weather-forecast-temperature {
   padding: 0 10px;
