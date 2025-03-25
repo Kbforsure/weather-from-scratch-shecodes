@@ -96,7 +96,7 @@ footer {
 }
 .weather-app-icon {
   font-size: 42px;
-  text-align: center;
+  display: inline-block;
 }
 .weather-forecast-temperatures {
   text-align: center;
