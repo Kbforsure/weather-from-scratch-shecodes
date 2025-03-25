@@ -93,6 +93,7 @@ footer {
 .weather-app-icon {
   font-size: 38px;
   text-align: center;
+  margin-top: 10px;
 }
 .weather-forecast-temperatures {
   text-align: center;
