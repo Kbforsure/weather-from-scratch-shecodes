@@ -43,6 +43,11 @@ function searchCity(city) {
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}`;
   axios.get(apiUrl).then(refreshWeather);
 }
+function getForecast(city) {
+  let apiKey = "do8e05a55a39a74t37328f1154eb845f";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}$units=metric`;
+  console.log(apiUrl);
+}
 
 function handleSearchSubmit(event) {
   event.preventDefault();
@@ -62,7 +67,7 @@ function displayForecast() {
                 <div class="weather-forecast-icon">🌤</div>
                 <div class="weather-forecast-temperatures">
                   <div class="weather-app-temperature">
-                    <strong>12º </strong>
+                    <strong>12º</strong>
                   </div>
                   |
                   <div class="weather-app-temperature">6º</div>
