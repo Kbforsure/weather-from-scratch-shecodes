@@ -47,7 +47,6 @@ function getForecast(city) {
   let apiKey = "do8e05a55a39a74t37328f1154eb845f";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}$units=metric`;
 }
-console.log(apiUrl);
 function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector(".search-form-input");
