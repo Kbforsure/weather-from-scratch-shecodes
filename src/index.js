@@ -59,11 +59,12 @@ function displayForecast(response) {
   let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   console.log(response.data);
   let forecastHtml = "";
+}
 
-  days.forEach(function (day) {
-    forecastHtml =
-      forecastHtml +
-      `<div class="weather-forecast-day">
+days.forEach(function (day) {
+  forecastHtml =
+    forecastHtml +
+    `<div class="weather-forecast-day">
             <div class="weather-forecast-date">${day}</div>
                 <div class="weather-forecast-icon">🌤</div>
                 <div class="weather-forecast-temperatures">
@@ -75,10 +76,9 @@ function displayForecast(response) {
                 </div>
               </div>
             `;
-  });
-  let forecastElement = document.querySelector("#forecast");
-  forecastElement.innerHTML = forecastHtml;
-}
+});
+let forecastElement = document.querySelector("#forecast");
+forecastElement.innerHTML = forecastHtml;
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
