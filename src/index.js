@@ -46,6 +46,7 @@ function searchCity(city) {
 function getForecast(city) {
   let apiKey = "do8e05a55a39a74t37328f1154eb845f";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}$units=metric`;
+  axios(apiUrl).then(displayForecast);
 }
 function handleSearchSubmit(event) {
   event.preventDefault();
@@ -53,8 +54,9 @@ function handleSearchSubmit(event) {
 
   searchCity(searchInput.value);
 }
-function displayForecast() {
+function displayForecast(response) {
   let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  console.log(response.data);
   let forecastHtml = "";
 
   days.forEach(function (day) {
@@ -81,4 +83,3 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Bellingham");
-displayForecast();
