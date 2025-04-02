@@ -85,3 +85,4 @@ searchFormElement.addEventListener("submit", handleSearchSubmit);
 searchCity("Bellingham");
 getForecast("Bellingham");
 displayForecast();
+console.log(apiUrl);
