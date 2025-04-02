@@ -94,10 +94,9 @@ footer {
   font-size: 18px;
   line-height: 20px;
 }
-.weather-app-icon {
-  font-size: 42px;
-  display: flex;
-  justify-content: space-around;
+.weather-forecast-icon {
+  font-size: 24px;
+  text-align: center;
 }
 .weather-forecast-temperatures {
   text-align: center;
