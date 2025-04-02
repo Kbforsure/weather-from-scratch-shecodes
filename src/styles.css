@@ -95,7 +95,8 @@ footer {
   line-height: 20px;
 }
 .weather-forecast-icon {
-  font-size: 32px;
+  width: 88px;
+  height: 88px;
   display: block;
   margin: 0 auto;
 }
