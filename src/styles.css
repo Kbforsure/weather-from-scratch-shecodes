@@ -103,6 +103,7 @@ footer {
 .weather-forecast-temperatures {
   text-align: center;
   display: flex;
+  color: #430f58;
   justify-content: space-around;
 }
 .weather-forecast-temperature {
