@@ -80,7 +80,6 @@ function displayForecast(response) {
                   <div class="weather-app-temperature">
                     <strong>${Math.round(day.temperature.maximum)} </strong>
                   </div>
-                  |
                   <div class="weather-app-temperature">${Math.round(
                     day.temperature.minimum
                   )} </div>
